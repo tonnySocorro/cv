@@ -1,0 +1,38 @@
+:root {
+    --primary: red;
+    --gray-100: #EAEAEA;
+    --gray-200: #DFDFDF;
+    --gray-300: #6A6A6A;
+}
+
+
+hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid var(--gray-100);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+
+    @media (min-width: 768px) {
+        font-size: 46px;
+    }
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
