@@ -462,3 +462,9 @@ body {
   font-size: 14px;
   color: var(--gray-300);
 }
+.footer {
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 20px;
+  text-align: center;
+}
+
